@@ -13,6 +13,9 @@
 		71378BB92362FDDF00E5CFB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71378BB72362FDDF00E5CFB3 /* Main.storyboard */; };
 		71378BBB2362FDE000E5CFB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71378BBA2362FDE000E5CFB3 /* Assets.xcassets */; };
 		71378BBE2362FDE000E5CFB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71378BBC2362FDE000E5CFB3 /* LaunchScreen.storyboard */; };
+		71378BC62362FEBE00E5CFB3 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71378BC52362FEBE00E5CFB3 /* AddViewController.swift */; };
+		71B4D7312363E3C900EA18DB /* ScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4D7302363E3C900EA18DB /* ScreenViewController.swift */; };
+		71DD612E236413B300935F30 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DD612D236413B300935F30 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		71378BBA2362FDE000E5CFB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71378BBD2362FDE000E5CFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71378BBF2362FDE000E5CFB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71378BC52362FEBE00E5CFB3 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		71B4D7302363E3C900EA18DB /* ScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController.swift; sourceTree = "<group>"; };
+		71DD612D236413B300935F30 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				71378BB12362FDDF00E5CFB3 /* AppDelegate.swift */,
 				71378BB32362FDDF00E5CFB3 /* SceneDelegate.swift */,
 				71378BB52362FDDF00E5CFB3 /* ViewController.swift */,
+				71378BC52362FEBE00E5CFB3 /* AddViewController.swift */,
+				71DD612D236413B300935F30 /* EditViewController.swift */,
+				71B4D7302363E3C900EA18DB /* ScreenViewController.swift */,
 				71378BB72362FDDF00E5CFB3 /* Main.storyboard */,
 				71378BBA2362FDE000E5CFB3 /* Assets.xcassets */,
 				71378BBC2362FDE000E5CFB3 /* LaunchScreen.storyboard */,
@@ -140,6 +149,9 @@
 			files = (
 				71378BB62362FDDF00E5CFB3 /* ViewController.swift in Sources */,
 				71378BB22362FDDF00E5CFB3 /* AppDelegate.swift in Sources */,
+				71DD612E236413B300935F30 /* EditViewController.swift in Sources */,
+				71B4D7312363E3C900EA18DB /* ScreenViewController.swift in Sources */,
+				71378BC62362FEBE00E5CFB3 /* AddViewController.swift in Sources */,
 				71378BB42362FDDF00E5CFB3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
