@@ -16,16 +16,11 @@ class ScreenViewController: UIViewController {
     @IBOutlet weak var backgroundImage: UIImageView!
     @IBOutlet weak var contentLabel: UILabel!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
-        
         screenContentList = screenContentList.shuffled()
         contentLabel.text = screenContentList.first!
-
-        // Do any additional setup after loading the view.
     }
     
     
@@ -39,9 +34,7 @@ class ScreenViewController: UIViewController {
            
             
             
-        }
-        
-        else {
+        } else {
             screenContentList = screenContentList.shuffled()
             i = 0
             contentLabel.text = screenContentList[i]
@@ -57,9 +50,7 @@ class ScreenViewController: UIViewController {
             i -= 1
             contentLabel.text = screenContentList[i]
            
-        }
-        
-        else {
+        } else {
             i = screenContentList.count - 1
             contentLabel.text = screenContentList[i]
         }
@@ -73,16 +64,43 @@ class ScreenViewController: UIViewController {
 
     }
     
-    @IBAction func reverseButton(_ sender: Any) {
-        if backgroundImage.backgroundColor == .white {
-            backgroundImage.backgroundColor = .black
-            contentLabel.textColor = .white
+    @IBAction func swipeRight(_ sender: Any) {
+        if i < screenContentList.count - 1 {
+            i += 1
+            contentLabel.text = screenContentList[i]
+                 
+                  
+                  
         } else {
-            backgroundImage.backgroundColor = .white
-            contentLabel.textColor = .black
+            screenContentList = screenContentList.shuffled()
+            i = 0
+            contentLabel.text = screenContentList[i]
         }
         
     }
+              
+        
+    
+    
+        
+    
+    //    @IBAction func reverseButton(_ sender: Any) {
+//        if backgroundImage.backgroundColor == .white {
+//            backgroundImage.backgroundColor = .black
+//            contentLabel.textColor = .white
+//                    } else {
+//            backgroundImage.backgroundColor = .white
+//            contentLabel.textColor = .black
+//        }
+        
+    
    
-
+    
+ 
+       
+        
+        
+    
+    
+    
 }
